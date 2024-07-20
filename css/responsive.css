@@ -118,6 +118,7 @@
     }
     .nav-content-middle {
         float: right;
+        display: none;
         padding-right: 30px;
     }
 

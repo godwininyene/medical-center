@@ -102,6 +102,11 @@
     }
 
     .hero-image-container img{height: 100%;}
+
+    .cta-container {
+        padding:  100px;
+        height: 300px;
+    }
 }
 
 /*Media query for device width less or equal to 480px (Mobile phone) */
@@ -122,9 +127,15 @@
         padding-right: 30px;
     }
 
-    .composition--2 {
-        left: 20px;
-    }
+    .composition--2 {left: 20px; }
+
+    .cta-container {padding: 100px 27px;}
+    .cta-content-left,
+    .cta-content-right  {float: none;}
+
+    .cta-content-right{margin-top: 30px;}
+    
+   
 }
 
 

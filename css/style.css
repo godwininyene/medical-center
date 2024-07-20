@@ -206,7 +206,8 @@ html{
     text-transform: uppercase;
     font-weight: bolder;
     background-image: linear-gradient(to right, var(--primary-color-dark), var(--color-primary));
-    background-clip: text;
+   -moz-background-clip: text;
+	-webkit-background-clip:text;
     color: transparent;
 }
 .hero-para{

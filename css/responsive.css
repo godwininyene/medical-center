@@ -185,7 +185,7 @@ html{
 
 /****************************************** Hero Section *******************/
 .hero{
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--color-grey);
     padding: 60px 0;
 }
